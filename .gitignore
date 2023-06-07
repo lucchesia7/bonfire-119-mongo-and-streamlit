@@ -1,0 +1,2 @@
+# Added .env file to gitignore to shield database from unwanted access
+src/.env
