@@ -23,4 +23,4 @@ if __name__ == '__main__':
     c = Base()
     print(c.return_string())
     print(c.df)
-    c.df.to_csv('oracle_cards.csv')
+    c.df.to_csv('oracle_cards.csv', index=False)
